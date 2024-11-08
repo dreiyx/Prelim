@@ -14,7 +14,7 @@
 </head>
 <body>
 	
-//FORM 1 is already created!	
+
 
   <div class="container d-flex flex-column align-items-center">
     <h2 class="text-center my-4">Student Enrollment And Grade Processing System</h2>
@@ -61,7 +61,7 @@
       <button type="submit" class="btn btn-primary w-10">Submit Student Information</button>
     </form>
 
-//FORM 2 is already created!
+
 
     <div class="grade-form w-100 w-md-75 w-lg-50" id="gradeForm" style="display: none;">
       <h5>Enter Grades for: <span id="studentName"></span></h5>
@@ -83,7 +83,7 @@
       </form>
     </div>
 
-//FORM 3 is already created!
+
 
     <div id="studentDetails" class="student-details w-100 w-md-75 w-lg-50 mt-4" style="display: none;">
     <form id="enrollmentForm" action="#" method="post" onsubmit="showGradeForm(event)" class="w-100 w-md-75 w-lg-50">
@@ -145,7 +145,7 @@
   </div>
 
 
-//Grade Form is successfully added!
+
 
   <script>
 
