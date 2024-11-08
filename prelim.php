@@ -45,8 +45,7 @@
       <div class="mb-3">
         <label for="course">Course</label>
         <select id="course" name="course" class="form-select" required>
-          <option value="BSIT" checked>BSIT</option>
-          <option value="BSHRM">BSHRM</option><option value="BSIT" checked>BSIT (Bachelor of Science in Information Technology)</option>
+            <option value="BSIT" checked>BSIT (Bachelor of Science in Information Technology)</option>
             <option value="BSHRM">BSHM (Bachelor of Science in Hospitality Management)</option>
             <option value="BSBA">BSBA (Bachelor of Science in Business Administration)</option>
         </select>
@@ -108,7 +107,7 @@
       <div class="mb-3">
         <label for="course">Course</label>
         <select id="course" name="course" class="form-select" required>
-          <option value="BSIT" checked>BSIT (Bachelor of Science in Information Technology)</option>
+            <option value="BSIT" checked>BSIT (Bachelor of Science in Information Technology)</option>
             <option value="BSHRM">BSHM (Bachelor of Science in Hospitality Management)</option>
             <option value="BSBA">BSBA (Bachelor of Science in Business Administration)</option>
         </select>
