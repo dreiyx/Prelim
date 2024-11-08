@@ -13,6 +13,8 @@
 
 </head>
 <body>
+	
+//FORM 1 is already created!	
 
   <div class="container d-flex flex-column align-items-center">
     <h2 class="text-center my-4">Student Enrollment And Grade Processing System</h2>
@@ -45,9 +47,11 @@
       <div class="mb-3">
         <label for="course">Course</label>
         <select id="course" name="course" class="form-select" required>
-            <option value="BSIT" checked>BSIT (Bachelor of Science in Information Technology)</option>
-            <option value="BSHRM">BSHM (Bachelor of Science in Hospitality Management)</option>
-            <option value="BSBA">BSBA (Bachelor of Science in Business Administration)</option>
+          
+          	  <option value="BSIT" checked>BSIT (Bachelor of Science in Information Technology)</option>
+            	<option value="BSHM">BSHM (Bachelor of Science in Hospitality Management)</option>
+            	<option value="BSBA">BSBA (Bachelor of Science in Business Administration)</option>
+
         </select>
       </div>
       <div class="mb-3">
@@ -57,6 +61,7 @@
       <button type="submit" class="btn btn-primary w-10">Submit Student Information</button>
     </form>
 
+//FORM 2 is already created!
 
     <div class="grade-form w-100 w-md-75 w-lg-50" id="gradeForm" style="display: none;">
       <h5>Enter Grades for: <span id="studentName"></span></h5>
@@ -78,6 +83,7 @@
       </form>
     </div>
 
+//FORM 3 is already created!
 
     <div id="studentDetails" class="student-details w-100 w-md-75 w-lg-50 mt-4" style="display: none;">
     <form id="enrollmentForm" action="#" method="post" onsubmit="showGradeForm(event)" class="w-100 w-md-75 w-lg-50">
@@ -104,12 +110,15 @@
           <label for="female">Female</label>
         </div>
       </div>
+
       <div class="mb-3">
         <label for="course">Course</label>
         <select id="course" name="course" class="form-select" required>
-            <option value="BSIT" checked>BSIT (Bachelor of Science in Information Technology)</option>
+
+          <option value="BSIT" checked>BSIT (Bachelor of Science in Information Technology)</option>
             <option value="BSHRM">BSHM (Bachelor of Science in Hospitality Management)</option>
             <option value="BSBA">BSBA (Bachelor of Science in Business Administration)</option>
+
         </select>
       </div>
       <div class="mb-3">
@@ -135,6 +144,9 @@
     </div>
   </div>
 
+
+//Grade Form is successfully added!
+
   <script>
 
     function showGradeForm(event) {
@@ -154,6 +166,8 @@
       document.getElementById('enrollmentForm').style.display = 'none';
       document.getElementById('gradeForm').style.display = 'block';
     }
+
+	//Submit Grade is successfully added too!
 
     function submitGrades(event) {
       event.preventDefault();
